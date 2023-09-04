@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(82, 80, 80);
+    margin:0px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    margin-right: 30px;
+    list-style: none;
+    color: #ffffffb1;
+    display: flex;
+}
+.navbar li svg :hover{
+    color: #fff;
+}
+/*------- hero_section------- */
+section{
+    padding: 25px;
+    height: 500px;
+    background-color: black;
+}
+.hero_section h1{
+    color: white;
+    margin-left: 450px;
+}
+.hero_section h4{
+    color: #fff;
+    margin-left: 490px;
+}
+.hero_section h6{
+    color: rgb(42, 171, 222);
+    margin-left: 470px;
+}
+.hero_section span{
+    margin-left:50px;
+}
+.image{
+    margin-left: 10%;
+}
+section1{
+    height: 500px;
+    background-color: #fff;
+}
+.iPhone h1{
+    margin-top: 3%;
+    color: black;
+    margin-left: 450px;
+}
+.iPhone h4{
+    color: black;
+    margin-left: 490px;
+}
+.iPhone h6{
+    color: rgb(42, 171, 222);
+    margin-left: 470px;
+}
+.iPhone span{
+    margin-left:50px;
+}
+.iPhone image{
+    background-color: #fff;
+}
+.Watch{
+    margin-top: 1%;
+    padding: 40px;
+    height: 560px;
+    background-color: black;
+}
+.Watch h1{
+    margin-left: 450px;
+    color: #fff;
+    display: flex;
+}
+.Watch h4{
+    color: rgb(242, 25, 130);
+    margin-left: 490px;
+}
+.Watch h3{
+    margin-left: 430px;
+    color: #fff;
+}
+.Watch h6{
+    color: rgb(42, 171, 222);
+    margin-left: 470px;
+}
+.Watch span{
+    margin-left:50px; 
+}
+.Watch img{
+    margin-left: 400px;
+}
+section2{
+    padding:1%;
+    height: 600px; 
+    display: flex;  
+}
+.left h1{
+    display: flex;
+    padding-top: 10%;
+    margin-left: 200px;
+}
+.left h3{
+    margin-left: 150px;
+}
+.left h5{
+    margin-left: 235px;
+   color: rgb(42, 171, 222); 
+}
+.ipad{
+    margin-top: 2%;
+    width: 102%;
+}
+.ipad h1{
+    margin-left: 260px;
+}
+.ipad h3{
+    margin-left: 150px;
+}
+.ipad h6{
+    margin-left: 200px;
+    color:rgb(42, 171, 222) ;
+}
+.ipad h6 span{
+    margin-left: 50px;
+}
+
+.Watch h6:hover,
+.ipad h6:hover,
+.left h5:hover,
+.iPhone h6:hover,
+.hero_section h6:hover,
+.Worldwide h6:hover,
+.Macbook h6:hover,
+.mothers-day h6:hover
+.card h6:hover{
+   text-decoration: underline;
+   color: rgb(42, 171, 222) ;
+ }
+
+.ipad img{
+    margin-top: 2%;
+    margin-left: 80px;
+}
+.mothers-day{
+    height: 600px;
+    margin-top: 2%;
+    width:98%;
+    background-color:#fbfbfd;
+}
+.mothers-day h5{
+    margin-left: 250px;
+    color: black;
+}
+.mothers-day h6{
+    margin-left: 280px;
+    color:rgb(42, 171, 222) ;
+}
+.mothers-day img{
+    margin-left: 100px;
+}
+/* ----------------End left -------------- */
+.Worldwide{
+    height: 600px;
+    background-color: black;
+    width: 100%;
+}
+.Worldwide img{
+    margin-left: 90px;
+}
+.Worldwide h1{
+    color: #fff;
+    padding-top: 10%;
+    margin-left: 200px;
+}
+.Worldwide h3{
+    color: #fff;
+    margin-left: 120px;
+}
+.Worldwide h5{
+    color: #fff;
+    margin-left: 223px;
+}
+.Worldwide h6{
+    color: rgb(42, 171, 222) ;
+    margin-left: 290px;
+}
+.Macbook{
+    padding: 1%;
+    margin-top: 2%;
+    height: 600px;
+    background-color: black;
+}
+.Macbook h1{
+    color: #fff;
+    padding-top: 5%;
+    margin-left: 200px;
+}
+.Macbook h4{
+    color: #fff;
+    margin-left: 120px;
+}
+.Macbook h6{
+    color: rgb(42, 171, 222) ;
+    margin-left: 200px;
+}
+.Macbook h6 span{
+    margin-left: 50px;
+}
+.Macbook img{
+    margin-left:100px;
+}
+.card{
+    padding:1%;
+    margin-top: 2%;
+    height: 600px;
+    background-color: #fbfbfd;
+}
+.card h1{
+    padding-top: 5%;
+    margin-left: 200px;
+}
+.card h5{
+    margin-left: 150px;
+}
+.card h5 span{
+    margin-left: 50px;
+}
+.card h6{
+    margin-left: 150px;
+    color: rgb(42, 171, 222) ;
+}
+.card h6 span{
+    margin-left: 50px;
+}
+.container{
+    display: flex;
+    padding-top: 93%;
+    margin-right: 800px;
+    width:100%;
+    height: 100%;
+    z-index: 9999;
+    position: absolute;
+    pointer-events: none;
+}
+.iframe2{
+    margin-left: 1%;
+}
+.iframe3{
+    margin-left: 1%;
+}
+.iframe4{
+    margin-left: 1%;
+}
+.iframe5{
+    margin-left: 1%;
+}
+.iframe6{
+    margin-left: 1%;
+}
+.iframe7{
+    margin-left: 1%;
+}
+.iframe8{
+    margin-left: 1%;
+}
+.iframe9{
+    margin-left: 1%;
+}
+.iframe10{
+    margin-left: 1%;
+}
+.footer{
+ background-color: aliceblue;
+ padding-top: 132%;   
+}
+.footer p{
+  margin: 5%;
+  text-align: center;
+  color: rgb(104, 98, 98);
+}
+.footer li{
+    color: gray;
+}
+.main{
+    display: flex;
+}
+.main:hover{
+   text-decoration: underline;
+   color: black; 
+}
+.main-left{
+    padding-top: 3%;
+    margin-left: 10%;
+}
+.main-right{
+    padding-top: 3%;
+    margin-left: 20%;
+}
+.Shop{
+    padding-top: 3%;
+    margin-left: 20%;
+}
+.Apple-wallet{
+    padding-top: 3%;
+    margin-left: 20%;
+}
+.account{
+    margin-left: 20%;
+    padding-top: 3%;
+}
+.Entertainment{
+    margin-left: 20%;
+   
+}
